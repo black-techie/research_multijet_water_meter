@@ -69,6 +69,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
   "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+  "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
   "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"

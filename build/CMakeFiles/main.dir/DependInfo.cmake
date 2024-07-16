@@ -70,8 +70,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/Users/black/pico-sdk/src/common/pico_stdlib/include"
-  "/Users/black/pico-sdk/src/rp2_common/hardware_gpio/include"
+  "/Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306"
+  "/Users/black/pico-sdk/src/rp2_common/hardware_i2c/include"
   "/Users/black/pico-sdk/src/common/pico_base/include"
   "generated/pico_base"
   "/Users/black/pico-sdk/src/boards/include"
@@ -81,18 +81,20 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/black/pico-sdk/src/rp2040/hardware_structs/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_claim/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_sync/include"
-  "/Users/black/pico-sdk/src/rp2_common/hardware_irq/include"
-  "/Users/black/pico-sdk/src/common/pico_sync/include"
   "/Users/black/pico-sdk/src/common/pico_time/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_timer/include"
+  "/Users/black/pico-sdk/src/rp2_common/hardware_irq/include"
+  "/Users/black/pico-sdk/src/common/pico_sync/include"
   "/Users/black/pico-sdk/src/common/pico_util/include"
-  "/Users/black/pico-sdk/src/rp2_common/hardware_uart/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_resets/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_clocks/include"
+  "/Users/black/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_pll/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_vreg/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_watchdog/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_xosc/include"
+  "/Users/black/pico-sdk/src/common/pico_stdlib/include"
+  "/Users/black/pico-sdk/src/rp2_common/hardware_uart/include"
   "/Users/black/pico-sdk/src/rp2_common/hardware_divider/include"
   "/Users/black/pico-sdk/src/rp2_common/pico_runtime/include"
   "/Users/black/pico-sdk/src/rp2_common/pico_printf/include"
@@ -115,7 +117,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/black/pico-sdk/lib/tinyusb/src/common"
   "/Users/black/pico-sdk/lib/tinyusb/hw"
   "/Users/black/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
-  "/Users/black/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "/Users/black/pico-sdk/src/rp2_common/hardware_spi/include"
   )
 
 # The set of dependency files which are needed:
@@ -154,6 +156,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/black/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "/Users/black/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "/Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "/Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" "gcc" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "/Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "/Users/black/pico-sdk/src/rp2_common/hardware_timer/timer.c" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" "gcc" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d"
   "/Users/black/pico-sdk/src/rp2_common/hardware_uart/uart.c" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" "gcc" "CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d"

@@ -197,4 +197,15 @@ CMakeFiles/main.dir/main.cpp.obj: \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/bits/invoke.h \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/bits/quoted_string.h \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/sstream \
- /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/bits/sstream.tcc
+ /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/bits/sstream.tcc \
+ /Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306/ssd1306.h \
+ /Users/black/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /Users/black/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /Users/black/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306/frameBuffer/FrameBuffer.h \
+ /Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306/textRenderer/TextRenderer.h \
+ /Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306/textRenderer/../ssd1306.h \
+ /Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306/textRenderer/5x8_font.h \
+ /Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306/textRenderer/8x8_font.h \
+ /Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306/textRenderer/12x16_font.h \
+ /Users/black/Desktop/work/codes/cmake/Research_pico_water_meter/pico-ssd1306/textRenderer/16x32_font.h

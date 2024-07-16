@@ -207,6 +207,32 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+#=============================================================================
+# Target rules for targets named pico_ssd1306
+
+# Build rule for target.
+pico_ssd1306: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_ssd1306
+.PHONY : pico_ssd1306
+
+# fast build rule for target.
+pico_ssd1306/fast:
+	$(MAKE) $(MAKESILENT) -f pico-ssd1306/CMakeFiles/pico_ssd1306.dir/build.make pico-ssd1306/CMakeFiles/pico_ssd1306.dir/build
+.PHONY : pico_ssd1306/fast
+
+#=============================================================================
+# Target rules for targets named ssd1306_textRenderer
+
+# Build rule for target.
+ssd1306_textRenderer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ssd1306_textRenderer
+.PHONY : ssd1306_textRenderer
+
+# fast build rule for target.
+ssd1306_textRenderer/fast:
+	$(MAKE) $(MAKESILENT) -f pico-ssd1306/textRenderer/CMakeFiles/ssd1306_textRenderer.dir/build.make pico-ssd1306/textRenderer/CMakeFiles/ssd1306_textRenderer.dir/build
+.PHONY : ssd1306_textRenderer/fast
+
 Users/black/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/black/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/black/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1039,6 +1065,30 @@ Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
+Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.obj: Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+
+# target to build an object file
+Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+
+Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.i: Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.i
+
+# target to preprocess a source file
+Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.s: Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.s
+
+# target to generate assembly for a file
+Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+
 Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
@@ -1726,6 +1776,8 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... main"
+	@echo "... pico_ssd1306"
+	@echo "... ssd1306_textRenderer"
 	@echo "... Users/black/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/black/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/black/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -1830,6 +1882,9 @@ help:
 	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.obj"
+	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.i"
+	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_spi/spi.s"
 	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... Users/black/pico-sdk/src/rp2_common/hardware_sync/sync.s"
